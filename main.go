@@ -4,7 +4,5 @@ package main
 import "github.com/muci-cell/go-test/help"
 
 func main() {
-
-    help.Run()
-
+    help.Test_http()
 }
