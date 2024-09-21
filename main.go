@@ -1,8 +1,10 @@
+// main.go
 package main
 
-import "fmt"
+import "github.com/muci-cell/go-test/help"
 
 func main() {
-    fmt.Println("Hello, World!")
-    fmt.Println("我是中文")
+
+    help.Run()
+
 }
